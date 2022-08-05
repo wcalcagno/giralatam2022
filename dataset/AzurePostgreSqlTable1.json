@@ -1,0 +1,65 @@
+{
+	"name": "AzurePostgreSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzurePostgreSql1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzurePostgreSqlTable",
+		"schema": [
+			{
+				"name": "character_set_catalog",
+				"type": "name",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "character_set_schema",
+				"type": "name",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "character_set_name",
+				"type": "name",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "character_repertoire",
+				"type": "name",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "form_of_use",
+				"type": "name",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "default_collate_catalog",
+				"type": "name",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "default_collate_schema",
+				"type": "name",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "default_collate_name",
+				"type": "name",
+				"precision": 0,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"schema": "information_schema",
+			"table": "character_sets"
+		}
+	}
+}
