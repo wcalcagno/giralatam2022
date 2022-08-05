@@ -1,0 +1,9 @@
+{
+	"name": "dataopsgiralatam2022",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "17ff3fdd-3184-45d3-9449-7317c4b1b1a1",
+		"tenantId": "54c99288-570f-4357-8ec5-86bd173a4960"
+	}
+}
